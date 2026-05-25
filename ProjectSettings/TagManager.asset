@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ZF
+    uniqueID: 3303957197
+    locked: 0
+  - name: Player
+    uniqueID: 513594215
+    locked: 0
+  - name: PF
+    uniqueID: 286405455
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
