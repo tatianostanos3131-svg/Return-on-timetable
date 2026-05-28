@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "D:/Новая папка/проекты/Return-on-timetable/Packages",
-    "unityVersion": "6000.4.3f1"
+    "unityVersion": "6000.4.4f1"
   },
   "inputs": [
     "D:\\Новая папка\\проекты\\Return-on-timetable\\Packages\\manifest.json",
     "D:\\Новая папка\\проекты\\Return-on-timetable\\Packages\\packages-lock.json",
-    "D:\\igri\\6000.4.3f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "D:\\igri\\6000.4.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.animation@14.0.3": {
@@ -142,8 +142,8 @@
     "com.unity.render-pipelines.universal@17.4.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.render-pipelines.universal@f76d6966885c",
-      "fingerprint": "f76d6966885c4557b36468701727ea8ba9f11a3a",
+      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.render-pipelines.universal@18d0e59f18f1",
+      "fingerprint": "18d0e59f18f19c3e22834c10b46832aa94472c52",
       "editorCompatibility": "6000.4.0a1",
       "version": "17.4.0",
       "source": "builtin",
@@ -490,8 +490,8 @@
     "com.unity.render-pipelines.core@17.4.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.render-pipelines.core@9d79d0cd2cf7",
-      "fingerprint": "9d79d0cd2cf71fd6f03c81d66906e89488a7f1a7",
+      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.render-pipelines.core@2269be549234",
+      "fingerprint": "2269be549234502e6fdad99433d843a52a84bb65",
       "editorCompatibility": "6000.4.0a1",
       "version": "17.4.0",
       "source": "builtin",
@@ -500,8 +500,8 @@
     "com.unity.shadergraph@17.4.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.shadergraph@34406da38d62",
-      "fingerprint": "34406da38d627a34e97f9a855a205db3fdc9bdc1",
+      "resolvedPath": "D:\\Новая папка\\проекты\\Return-on-timetable\\Library\\PackageCache\\com.unity.shadergraph@cd28a7c13031",
+      "fingerprint": "cd28a7c130315c7f7f6b8706359cc7f16c301562",
       "editorCompatibility": "6000.4.0a1",
       "version": "17.4.0",
       "source": "builtin",
