@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Animator startAnim;
 
     private Queue<string> sentences;
+    private bool isDialogueActive = false;
 
     private void Start()
     {
@@ -20,6 +21,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        if (isDialogueActive) return;
+        isDialogueActive = true;
+
         boxAnim.SetBool("boxOpen", true);
         startAnim.SetBool("startOpen", false);
 
@@ -50,11 +54,12 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(0.1f);
         }
     }
     public void EndDialogue()
     {
+        isDialogueActive = false;
         boxAnim.SetBool("boxOpen", false);
     }
 }
